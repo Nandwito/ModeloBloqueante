@@ -1,0 +1,6 @@
+var fs = require("fs")
+console.log("Abriendo el archivo...")
+var content = fs.readFileSync("elquijote.txt","utf8")
+console.log(content)
+console.log("haciendo otra cosa")
+console.log(process.uptime())
